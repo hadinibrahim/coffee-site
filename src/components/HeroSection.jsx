@@ -37,7 +37,7 @@ export default function HeroSection() {
       <div className="carousel-inner">
         <div
           className="carousel-item active"
-          style={{ backgroundImage: `url('assets/interior.jpg')` }}
+          style={{ backgroundImage: `url('/assets/interior.jpg')` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
@@ -55,7 +55,7 @@ export default function HeroSection() {
         </div>
         <div
           className="carousel-item"
-          style={{ backgroundImage: `url('assets/bar.jpg')` }}
+          style={{ backgroundImage: `url('/assets/bar.jpg')` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
