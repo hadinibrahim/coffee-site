@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
 import "../styles/HeroSection.css";
 
+// Import Image
+import interior from "../assets/interior.jpg"
+import bar from "../assets/bar.jpg"
+import outdoor1 from "../assets/outdoor-1.jpg"
+
 export default function HeroSection() {
   return (
     <div
@@ -37,7 +42,7 @@ export default function HeroSection() {
       <div className="carousel-inner">
         <div
           className="carousel-item active"
-          style={{ backgroundImage: `url('/assets/interior.jpg')` }}
+          style={{ backgroundImage: `url(${interior})` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
@@ -55,7 +60,7 @@ export default function HeroSection() {
         </div>
         <div
           className="carousel-item"
-          style={{ backgroundImage: `url('/assets/bar.jpg')` }}
+          style={{ backgroundImage: `url(${bar})` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
@@ -71,7 +76,7 @@ export default function HeroSection() {
         </div>
         <div
           className="carousel-item"
-          style={{ backgroundImage: `url('/assets/outdoor-1.jpg')` }}
+          style={{ backgroundImage: `url(${outdoor1})` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
