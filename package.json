@@ -6,7 +6,7 @@
   "homepage": "https://hadinibrahim.github.io/coffee-site/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-paget -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
