@@ -13,6 +13,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const isHome = location.pathname === "/";
+  const base = import.meta.env.BASE_URL;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,7 +49,7 @@ export default function Navbar() {
           onClick={handleNavClick}
         >
           <img
-            src="/assets/logo.png"
+            src={`${base}assets/logo.png`}
             alt="Logo"
             height="30"
             width="30"

@@ -4,6 +4,9 @@ import HeroSection from "../components/HeroSection";
 import "../styles/Home.css";
 
 export default function Home() {
+
+  const base = import.meta.env.BASE_URL;
+
   return (
     <>
       <HeroSection />
@@ -15,18 +18,18 @@ export default function Home() {
           {[
             {
               name: "Hot Latte",
-              image: "/assets/latte.jpg",
+              image: `${base}assets/latte.jpg`,
               desc: "Sweet, smooth, and bold",
             },
             {
               name: "Butter Croissant",
-              image: "/assets/croisant.jpg",
+              image: `${base}assets/croisant.jpg`,
               desc: "Nice croissant with butter inside it",
             },
             {
               name: "Ice Coffee",
-              image: "/assets/IceCoffee.jpg",
-              desc: "House House Blend mixed with fresh milk so that it is delicious served in cold conditions",
+              image: `${base}assets/IceCoffee.jpg`,
+              desc: "House Blend mixed with fresh milk so that it is delicious served in cold conditions",
             },
           ].map((dish, idx) => (
             <div className="col-md-4" key={idx}>
@@ -60,8 +63,8 @@ export default function Home() {
           </h2>
           <div className="row g-4">
             {[
-              { title: "Family Gathering", image: "/assets/FamilyGath.jpg" },
-              { title: "Corp Meeting", image: "/assets/Meeting.jpg" },
+              { title: "Family Gathering", image: `${base}/assets/FamilyGath.jpg` },
+              { title: "Corp Meeting", image: `${base}assets/Meeting.jpg` },
             ].map((event, idx) => (
               <div className="col-md-4" key={idx}>
                 <div className="event-card position-relative">
