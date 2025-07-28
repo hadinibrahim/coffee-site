@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import "../styles/HeroSection.css";
 
 export default function HeroSection() {
-  const base = import.meta.env.BASE_URL;
-
   return (
     <div
       id="heroCarousel"
@@ -39,7 +37,7 @@ export default function HeroSection() {
       <div className="carousel-inner">
         <div
           className="carousel-item active"
-          style={{ backgroundImage: `url('${base}assets/interior.jpg')` }}
+          style={{ backgroundImage: `url('assets/interior.jpg')` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
@@ -57,7 +55,7 @@ export default function HeroSection() {
         </div>
         <div
           className="carousel-item"
-          style={{ backgroundImage: `url('${base}assets/bar.jpg')` }}
+          style={{ backgroundImage: `url('assets/bar.jpg')` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
@@ -73,7 +71,7 @@ export default function HeroSection() {
         </div>
         <div
           className="carousel-item"
-          style={{ backgroundImage: `url('${base}assets/outdoor-1.jpg')` }}
+          style={{ backgroundImage: `url('/assets/outdoor-1.jpg')` }}
         >
           <div className="hero-overlay d-flex justify-content-center align-items-center text-center">
             <div>
