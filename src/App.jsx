@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useLocation,
-} from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
@@ -36,9 +31,9 @@ function AppContent() {
 
 export default function App() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <AppContent />
-    </Router>
+    </>
   );
 }
