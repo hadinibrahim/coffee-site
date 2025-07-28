@@ -1,0 +1,30 @@
+.section-title {
+  font-family: "Georgia", serif;
+  color: #3a1f0b;
+}
+
+.event-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.venue-card:hover {
+  transform: scale(1.02);
+}
+
+.venue-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body h5 {
+  color: #3a1f0b;
+  font-weight: 600;
+}
+
+/* .page-content {
+  padding-top: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+} */

@@ -1,0 +1,102 @@
+:root {
+  --main-color: #6f4e37;
+  --highlight: #ffc107;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #212529;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.img-standard {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Custom Buttons */
+.btn-coffee {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+}
+
+.btn-coffee:hover {
+  background-color: #593c2d;
+}
+
+/* Navbar active state */
+.nav-item.active .nav-link {
+  font-weight: bold;
+  color: var(--highlight) !important;
+}
+
+section:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.alert {
+  margin-top: 30px;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+/* animation iamge */
+
+.zoom-hover {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  will-change: transform;
+}
+
+.zoom-hover:hover,
+.zoom-hover:active {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}

@@ -1,0 +1,20 @@
+/* Shared base styling for all pages */
+.main-content {
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #f5eee6;
+  color: #3e2c1c;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* For inner pages (not Home) */
+.inner-page {
+  padding-top: 80px; 
+}
+
+/* Home Page: remove padding so image is behind navbar */
+.home-page {
+  padding-top: 0;
+  margin-top: -80px;
+}

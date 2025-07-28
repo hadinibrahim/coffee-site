@@ -1,0 +1,28 @@
+#heroCarousel {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  /* background-repeat: no-repeat; */
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.carousel-inner {
+  position: relative;
+  z-index: 1;
+}

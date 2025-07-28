@@ -1,0 +1,48 @@
+.section-title {
+  font-family: "Georgia", serif;
+  color: #3a1f0b;
+}
+
+.job-card {
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+}
+
+.application-form {
+  max-width: 700px;
+  margin: 0 auto 4rem;
+  border-radius: 12px;
+  background-color: #fefefe;
+}
+
+.page-content {
+  /* padding-top: 100px; */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.Toastify__toast-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.Toastify__toast-container--bottom-center {
+  bottom: 0 !important;
+}
+/* 
+.custom-toast {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.custom-toast-body {
+  background-color: transparent !important;
+  color: #fefefe;
+} */

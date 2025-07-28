@@ -1,0 +1,56 @@
+.section-title {
+  font-family: "Georgia", serif;
+  color: #3a1f0b;
+}
+
+.signature-section .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+.dish-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.dish-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(100, 60, 30, 0.2);
+}
+
+.events-section {
+  /* background-color: #2e1503; */
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.event-card {
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+.event-card img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.event-card:hover img {
+  transform: scale(1.05);
+}
+
+.event-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
