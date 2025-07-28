@@ -15,17 +15,17 @@ export default function Home() {
           {[
             {
               name: "Hot Latte",
-              image: "assets/latte.jpg",
+              image: "/assets/latte.jpg",
               desc: "Sweet, smooth, and bold",
             },
             {
               name: "Butter Croissant",
-              image: "assets/croisant.jpg",
+              image: "/assets/croisant.jpg",
               desc: "Nice croissant with butter inside it",
             },
             {
               name: "Ice Coffee",
-              image: "assets/IceCoffee.jpg",
+              image: "/assets/IceCoffee.jpg",
               desc: "House Blend mixed with fresh milk so that it is delicious served in cold conditions",
             },
           ].map((dish, idx) => (
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         <div className="text-center mt-4">
-          <a href="/public/menu.pdf" download className="btn btn-outline-dark">
+          <a href="/menu.pdf" download className="btn btn-outline-dark">
             📥 Download Full Menu
           </a>
         </div>
