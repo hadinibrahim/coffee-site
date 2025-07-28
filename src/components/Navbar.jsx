@@ -48,7 +48,7 @@ export default function Navbar() {
           onClick={handleNavClick}
         >
           <img
-            src="/assets/logo.png"
+            src={`${import.meta.env.BASE_URL}assets/logo.png`}
             alt="Logo"
             height="30"
             width="30"
